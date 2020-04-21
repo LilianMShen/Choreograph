@@ -7,7 +7,7 @@ if(NOT TARGET Choreograph)
 
     # Make a list of source files and define that to be ${SOURCE_LIST}.
     file(GLOB SOURCE_LIST CONFIGURE_DEPENDS
-            "${Choreograph_Project_Root}/src/Choreograph/*.cpp"
+            "${Choreograph_Project_Root}/src/choreograph/*.cpp"
             )
 
     # Create the library!
